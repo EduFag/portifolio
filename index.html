@@ -9,6 +9,8 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -55,7 +57,7 @@
 
 <main class="main-sobre">
         <div class="sobre-perfil">
-            <img src="img/Avatar-Maker.png" alt="Eu">
+            <img src="https://cdn.icon-icons.com/icons2/1371/PNG/512/batman_90804.png" alt="Eu">
         </div>
         <div class="sobre-texto">
             <div class="texto">
@@ -73,14 +75,14 @@
 
         <div class="icons-habilidades">
             <div class="line-1">
-                <i class="fa-brands fa-html5 fa-2xl"></i>
-                <i class="fa-brands fa-css3-alt fa-2xl"></i>
-                <i class="fa-brands fa-js fa-2xl"></i>
+                <i class="fa-brands fa-html5 fa-2xl" id="html"></i>
+                <i class="fa-brands fa-css3-alt fa-2xl" id="css"></i>
+                <i class="fa-brands fa-js fa-2xl" id="js"></i>
             </div>
             <div class="line-2">
-                <i class="fa-brands fa-php fa-2xl"></i>
-                <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="">
-                <i class="fa-brands fa-github fa-2xl"></i>
+                <i class="fa-brands fa-php fa-2xl" id="php"></i>
+                <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="" id="mysql">
+                <i class="fa-brands fa-github fa-2xl" id="github"></i>
             </div>
         </div>
 
@@ -106,7 +108,9 @@
 
 </main>
 
-
+<script>
+    AOS.init();
+  </script>
 
 <script src="script.js"></script>
   
